@@ -7,18 +7,18 @@ The cyberbullying detection model built is targeted for the Indian audience. Hen
 were obtained from Twitter, Instagram and Youtube. The scripts were classified into numerical categories. ‘0’ is considered as non-cyberbullying and ‘1’ is considered as cyberbullying. The dataset is structured.
 
 **2. Data Preprocessing:**
-/nTechniques used:
+Techniques used:
 a. Normalization
 b. Tokenization
 c.  Lemmatization and Stemming:
 
 **3. Feature Extraction:**
-/nNLP Techniques used:
+NLP Techniques used:
 a. BoW
 b. Tf-IDF
 
 **4. Training Model:**
-/nML Algorithms Used:
+ML Algorithms Used:
 a. Random Forest Classifier
 b. Logistic Regression
 c. Light GBM
