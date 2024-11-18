@@ -263,25 +263,5 @@ pipe4.fit(X, y)
 w = str(input())
 pipe4.predict([w])
 
-import pickle
-
-# Serialize the model
-with open("random_forest_model.pkl", "wb") as f:
-    pickle.dump(grid_rf_model, f)
-
-# Deserialize the model
-with open("random_forest_model.pkl", "rb") as f:
-    grid_rf_model = pickle.load(f)
-
-from pydantic import BaseModel
-
-class Cyberbullying(BaseModel):
-    message: str
-    class Config:
-        schema_extra = {
-            "example": {
-                "message": 'i was sure this movie will be a hit but you guys made it a blockbuster.. Thankyou'
-            }
-        }
 
 
